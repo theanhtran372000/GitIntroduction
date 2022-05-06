@@ -31,14 +31,10 @@ if __name__ == '__main__':
         
         result = cal_circle_area(r)
     
-<<<<<<< Updated upstream
-    print('Result: {}'.format(result * mul))
-=======
     elif f == 2:
         a = int(input("Input a = "))
         b = int(input("Input b = "))
         
         result = cal_rectangle_area(a, b)
         
-    print('Result: {}'.format(result))
->>>>>>> Stashed changes
+    print('Result: {}'.format(result * mul))
