@@ -19,6 +19,7 @@ if __name__ == '__main__':
         Your choice: '''))
     
     mul = int(input('Multiplier = '))
+    sub = int(input('Subtraction = '))
     add = int(input('Addition: '))
     
     if f == 0:
@@ -38,4 +39,4 @@ if __name__ == '__main__':
         
         result = cal_rectangle_area(a, b)
         
-    print('Result: {}'.format(result * mul + add))
+    print('Result: {}'.format(result * mul + add - sub))
