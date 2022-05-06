@@ -1,4 +1,3 @@
-from cgitb import reset
 import math
 
 def cal_rectangle_perimeter(a, b):
@@ -15,6 +14,8 @@ if __name__ == '__main__':
             
         Your choice: '''))
     
+    mul = int(input('Multiplier = '))
+    
     if f == 0:
         a = int(input("Input a = "))
         b = int(input("Input b = "))
@@ -26,4 +27,4 @@ if __name__ == '__main__':
         
         result = cal_circle_area(r)
     
-    print('Result: {}'.format(result))
+    print('Result: {}'.format(result * mul))
